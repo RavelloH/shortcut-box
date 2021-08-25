@@ -1,7 +1,7 @@
 name: Update gist with random Xcode shortcut
 on:
   schedule:
-    - cron: "15 * * * *"
+    - cron: "0 0 * * 1"
   push:
     branches:    
       - master
